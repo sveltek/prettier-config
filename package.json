@@ -1,0 +1,58 @@
+{
+  "name": "@sveltek/prettier-config",
+  "version": "1.0.0",
+  "author": "Sveltek",
+  "contributors": [
+    {
+      "name": "Ivo Dolenc",
+      "url": "https://github.com/ivodolenc"
+    }
+  ],
+  "description": "Sveltek's config for Prettier.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sveltek/prettier-config.git"
+  },
+  "homepage": "https://github.com/sveltek/prettier-config",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.mts",
+      "import": "./dist/index.mjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "sveltek",
+    "svelte",
+    "sveltekit",
+    "prettier",
+    "prettier-config",
+    "presets",
+    "config"
+  ],
+  "scripts": {
+    "build": "hyperbundler",
+    "format": "prettier --config src/index.js --write .",
+    "prepublishOnly": "pnpm build"
+  },
+  "packageManager": "pnpm@10.6.5",
+  "engines": {
+    "node": ">=20.0.0",
+    "pnpm": ">=10.0.0"
+  },
+  "peerDependencies": {
+    "prettier": ">=3.0.0"
+  },
+  "dependencies": {
+    "prettier-plugin-svelte": "^3.3.3"
+  },
+  "devDependencies": {
+    "@hypernym/bundler": "^0.14.3",
+    "@sveltek/tsconfig": "^1.0.0",
+    "prettier": "^3.5.3"
+  }
+}
