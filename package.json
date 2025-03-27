@@ -39,7 +39,7 @@
     "format": "prettier --config src/index.js --write .",
     "prepublishOnly": "pnpm build"
   },
-  "packageManager": "pnpm@10.6.5",
+  "packageManager": "pnpm@10.7.0",
   "engines": {
     "node": ">=20.0.0",
     "pnpm": ">=10.0.0"
