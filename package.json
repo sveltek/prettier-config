@@ -39,11 +39,6 @@
     "format": "prettier --config src/index.js --write .",
     "prepublishOnly": "pnpm build"
   },
-  "packageManager": "pnpm@10.7.0",
-  "engines": {
-    "node": ">=20.0.0",
-    "pnpm": ">=10.0.0"
-  },
   "peerDependencies": {
     "prettier": ">=3.0.0"
   },
@@ -52,7 +47,7 @@
   },
   "devDependencies": {
     "@hypernym/bundler": "^0.14.3",
-    "@sveltek/tsconfig": "^1.0.0",
+    "@sveltek/tsconfig": "^1.0.1",
     "prettier": "^3.5.3"
   }
 }
