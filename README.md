@@ -10,13 +10,15 @@
 pnpm add -D @sveltek/prettier-config
 ```
 
-## Setup
+## Usage
+
+### Formatting Commands
 
 Add a `format` command for manual formatting (optional):
 
-#### package.json
+```js
+// package.json
 
-```json
 {
   "scripts": {
     "format": "prettier --write ."
@@ -24,19 +26,19 @@ Add a `format` command for manual formatting (optional):
 }
 ```
 
-## Usage
-
-#### prettier.config.js
+### Default Config
 
 ```js
+// prettier.config.js
+
 export { default } from '@sveltek/prettier-config'
 ```
 
-## Customization
-
-#### prettier.config.js
+## Custom Setup
 
 ```js
+// prettier.config.js
+
 import base from '@sveltek/prettier-config'
 
 /** @type {import("prettier").Config} */
