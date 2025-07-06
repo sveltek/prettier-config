@@ -43,11 +43,11 @@
     "prettier": ">=3.0.0"
   },
   "dependencies": {
-    "prettier-plugin-svelte": "^3.3.3"
+    "prettier-plugin-svelte": "^3.4.0"
   },
   "devDependencies": {
-    "@hypernym/bundler": "^0.14.3",
+    "@hypernym/bundler": "^0.14.4",
     "@sveltek/tsconfig": "^1.0.1",
-    "prettier": "^3.5.3"
+    "prettier": "^3.6.2"
   }
 }
