@@ -51,12 +51,6 @@ const config = {
 export default config
 ```
 
-## Community
-
-Feel free to ask questions or share new ideas.
-
-Use the official [discussions](https://github.com/sveltek/prettier-config/discussions) to get involved.
-
 ## License
 
 Developed in 🇭🇷 Croatia, © Sveltek.
