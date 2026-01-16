@@ -1,6 +1,6 @@
 {
   "name": "@sveltek/prettier-config",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "author": "Sveltek",
   "description": "Sveltek's config for Prettier.",
   "license": "MIT",
