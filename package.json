@@ -2,12 +2,6 @@
   "name": "@sveltek/prettier-config",
   "version": "1.0.5",
   "author": "Sveltek",
-  "contributors": [
-    {
-      "name": "Ivo Dolenc",
-      "url": "https://github.com/ivodolenc"
-    }
-  ],
   "description": "Sveltek's config for Prettier.",
   "license": "MIT",
   "repository": {
@@ -46,8 +40,8 @@
     "prettier-plugin-svelte": "^3.4.1"
   },
   "devDependencies": {
-    "@hypernym/bundler": "^0.31.0",
+    "@hypernym/bundler": "^0.31.1",
     "@sveltek/tsconfig": "^1.0.1",
-    "prettier": "^3.7.4"
+    "prettier": "^3.8.0"
   }
 }
