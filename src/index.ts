@@ -1,6 +1,7 @@
 import { fileURLToPath } from 'node:url'
+import type { Config } from 'prettier'
 
-const config = {
+const defaultConfig: Config = {
   semi: false,
   tabWidth: 2,
   singleQuote: true,
@@ -8,4 +9,4 @@ const config = {
   overrides: [{ files: '*.svelte', options: { parser: 'svelte' } }],
 }
 
-export { config as default }
+export { defaultConfig, defaultConfig as default }
